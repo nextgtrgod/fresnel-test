@@ -70,6 +70,9 @@ scene.add(obj)
 camera.position.z = 35
 
 
+	//obj.rotation.y = Math.PI / 4
+
+
 function update() {
 	requestAnimationFrame(update)
 	renderer.render(scene, camera)

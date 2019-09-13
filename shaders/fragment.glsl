@@ -15,8 +15,8 @@ void main() {
 
 	// gl_FragColor = vec4(vec3(normal), 1.0);
 
-//gl_FragColor = vec4(direction, 1.0);
-float r = pow(clamp(1.0 - vReflectionFactor, 0.0, 1.0), 6.0);
-float b = clamp(backCull, 0.0, 1.0);
-gl_FragColor = vec4(vec3(0.0), backCull * r);
+	//gl_FragColor = vec4(direction, 1.0);
+	float r = pow(clamp(1.0 - vReflectionFactor, 0.0, 1.0), 4.0);
+	float b = clamp(backCull, 0.0, 1.0);
+	gl_FragColor = vec4(vec3(0.0), backCull * r);
 }
