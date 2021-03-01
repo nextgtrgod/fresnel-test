@@ -3,7 +3,7 @@
     "build": "parcel build index.html --no-source-maps --public-url ./"
   },
   "dependencies": {
-    "three": "^0.107.0"
+    "three": "^0.125.0"
   },
   "devDependencies": {
     "glslify-bundle": "^5.1.1",
